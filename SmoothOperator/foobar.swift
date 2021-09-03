@@ -10,4 +10,5 @@ import Foundation
 struct Foobar
 {
     var x = "ds"
+    var y = "bitch"
 }

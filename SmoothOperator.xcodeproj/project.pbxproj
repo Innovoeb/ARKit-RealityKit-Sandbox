@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DE2177C326E1C8D1000E3449 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2177C226E1C8D1000E3449 /* AppDelegate.swift */; };
-		DE2177CD26E1DFA9000E3449 /* foobar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2177CC26E1DFA9000E3449 /* foobar.swift */; };
+		DE2177D126E1E948000E3449 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2177D026E1E948000E3449 /* AppDelegate.swift */; };
 		DE31916E26D19DB900C2467C /* sade.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE31916D26D19DB900C2467C /* sade.jpg */; };
 		DE5256D626D4AA9100E7F7BC /* SmoothOperator.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DE5256D526D4AA9100E7F7BC /* SmoothOperator.mp3 */; };
 		DE5256D826D4B08900E7F7BC /* Sounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5256D726D4B08900E7F7BC /* Sounds.swift */; };
@@ -20,8 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DE2177C226E1C8D1000E3449 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DE2177CC26E1DFA9000E3449 /* foobar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foobar.swift; sourceTree = "<group>"; };
+		DE2177D026E1E948000E3449 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE31916D26D19DB900C2467C /* sade.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sade.jpg; sourceTree = "<group>"; };
 		DE5256D526D4AA9100E7F7BC /* SmoothOperator.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = SmoothOperator.mp3; path = ../../../SmoothOperator.mp3; sourceTree = "<group>"; };
 		DE5256D726D4B08900E7F7BC /* Sounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sounds.swift; sourceTree = "<group>"; };
@@ -66,15 +64,14 @@
 			children = (
 				DE963BAD2679873C00372B88 /* ContentView.swift */,
 				DE5256D726D4B08900E7F7BC /* Sounds.swift */,
+				DE2177D026E1E948000E3449 /* AppDelegate.swift */,
 				DE31916D26D19DB900C2467C /* sade.jpg */,
 				DE5256D526D4AA9100E7F7BC /* SmoothOperator.mp3 */,
 				DE5256D926D56A3600E7F7BC /* Sade - Smooth Operator.mp4 */,
-				DE2177C226E1C8D1000E3449 /* AppDelegate.swift */,
 				DE963BAF2679873C00372B88 /* Experience.rcproject */,
 				DE963BB12679873F00372B88 /* Assets.xcassets */,
 				DE963BB62679873F00372B88 /* Info.plist */,
 				DE963BB32679873F00372B88 /* Preview Content */,
-				DE2177CC26E1DFA9000E3449 /* foobar.swift */,
 			);
 			path = SmoothOperator;
 			sourceTree = "<group>";
@@ -159,11 +156,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE2177C326E1C8D1000E3449 /* AppDelegate.swift in Sources */,
+				DE2177D126E1E948000E3449 /* AppDelegate.swift in Sources */,
 				DE963BAE2679873C00372B88 /* ContentView.swift in Sources */,
 				DE963BB02679873C00372B88 /* Experience.rcproject in Sources */,
 				DE5256D826D4B08900E7F7BC /* Sounds.swift in Sources */,
-				DE2177CD26E1DFA9000E3449 /* foobar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

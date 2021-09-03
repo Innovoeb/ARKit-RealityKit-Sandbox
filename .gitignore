@@ -8,12 +8,13 @@
 .AppleDouble
 .LSOverride
 
+
 # Icon must end with two \r
 Icon
 
 # Thumbnails
 ._*
-
+Com
 # Files that might appear in the root of a volume
 .DocumentRevisions-V100
 .fseventsd
@@ -116,4 +117,4 @@ iOSInjectionProject/
 
 # End of https://www.toptal.com/developers/gitignore/api/swift,macos
 
-.AppDelegate.swift
+AppDelegate.swift

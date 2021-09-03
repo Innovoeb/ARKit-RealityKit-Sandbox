@@ -7,5 +7,5 @@
 
 struct foobar
 {
-    var test = "test test test"
+    var test = "test 6"
 }

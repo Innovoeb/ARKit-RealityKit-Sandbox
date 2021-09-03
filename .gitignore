@@ -24,6 +24,9 @@ Com
 .VolumeIcon.icns
 .com.apple.timemachine.donotpresent
 
+.AppDelegate.swift
+.foobar.swift
+
 # Directories potentially created on remote AFP share
 .AppleDB
 .AppleDesktop
@@ -117,5 +120,4 @@ iOSInjectionProject/
 
 # End of https://www.toptal.com/developers/gitignore/api/swift,macos
 
-AppDelegate.swift
-foobar
+

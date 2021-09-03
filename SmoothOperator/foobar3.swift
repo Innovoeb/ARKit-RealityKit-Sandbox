@@ -7,5 +7,5 @@
 
 struct foobar3
 {
-    var test = "this file should not be pushed"
+    var test = "fuck you!"
 }

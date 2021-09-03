@@ -18,6 +18,7 @@ struct ContentView : View
     var body: some View
     {
         return ARViewContainer().edgesIgnoringSafeArea(.all)
+        // bogus comment
     }
 }
 

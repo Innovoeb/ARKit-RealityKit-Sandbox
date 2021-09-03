@@ -10,5 +10,5 @@ import Foundation
 struct foobar
 {
     var test = "test 3"
-    var foobar = ""
+    var foobar = "dfadd"
 }

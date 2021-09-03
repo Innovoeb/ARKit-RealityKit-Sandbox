@@ -118,4 +118,4 @@ iOSInjectionProject/
 # End of https://www.toptal.com/developers/gitignore/api/swift,macos
 
 AppDelegate.swift
-SmoothOperator/foobar.swift
+foobar

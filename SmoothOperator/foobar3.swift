@@ -7,5 +7,5 @@
 
 struct foobar3
 {
-    var test = "fuck you!"
+    var test = "man fuck this!"
 }

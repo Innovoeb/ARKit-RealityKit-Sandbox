@@ -30,7 +30,7 @@ struct ARViewContainer: UIViewRepresentable
     // ?????????????
     func makeCoordinator() -> Coordinator
     {
-        Coordinator(parent: self) // test
+        Coordinator(parent: self)
     }
     
     // implement this method and use it to create your view object -- called initially once

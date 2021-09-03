@@ -25,7 +25,7 @@ Com
 .com.apple.timemachine.donotpresent
 
 .AppDelegate
-.foobar.swift
+./SmoothOperator/foobar.swift
 
 # Directories potentially created on remote AFP share
 .AppleDB

@@ -1,0 +1,16 @@
+{
+  "images" : [
+    {
+      "filename" : "sade.jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "unit" : "feet",
+    "width" : 2.5
+  }
+}

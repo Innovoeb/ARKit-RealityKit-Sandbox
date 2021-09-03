@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE31916E26D19DB900C2467C /* sade.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE31916D26D19DB900C2467C /* sade.jpg */; };
+		DE5256D626D4AA9100E7F7BC /* SmoothOperator.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DE5256D526D4AA9100E7F7BC /* SmoothOperator.mp3 */; };
+		DE5256D826D4B08900E7F7BC /* Sounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5256D726D4B08900E7F7BC /* Sounds.swift */; };
+		DE5256DA26D56A3600E7F7BC /* Sade - Smooth Operator.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = DE5256D926D56A3600E7F7BC /* Sade - Smooth Operator.mp4 */; };
+		DE963BAC2679873C00372B88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE963BAB2679873C00372B88 /* AppDelegate.swift */; };
+		DE963BAE2679873C00372B88 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE963BAD2679873C00372B88 /* ContentView.swift */; };
+		DE963BB02679873C00372B88 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = DE963BAF2679873C00372B88 /* Experience.rcproject */; };
+		DE963BB22679873F00372B88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE963BB12679873F00372B88 /* Assets.xcassets */; };
+		DE963BB52679873F00372B88 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE963BB42679873F00372B88 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DE31916D26D19DB900C2467C /* sade.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sade.jpg; sourceTree = "<group>"; };
+		DE5256D526D4AA9100E7F7BC /* SmoothOperator.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = SmoothOperator.mp3; path = ../../../SmoothOperator.mp3; sourceTree = "<group>"; };
+		DE5256D726D4B08900E7F7BC /* Sounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sounds.swift; sourceTree = "<group>"; };
+		DE5256D926D56A3600E7F7BC /* Sade - Smooth Operator.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Sade - Smooth Operator.mp4"; path = "../../../Sade - Smooth Operator.mp4"; sourceTree = "<group>"; };
+		DE963BA82679873C00372B88 /* SmoothOperator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmoothOperator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE963BAB2679873C00372B88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE963BAD2679873C00372B88 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DE963BAF2679873C00372B88 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		DE963BB12679873F00372B88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE963BB42679873F00372B88 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DE963BB62679873F00372B88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE963BA52679873C00372B88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE963B9F2679873C00372B88 = {
+			isa = PBXGroup;
+			children = (
+				DE963BAA2679873C00372B88 /* SmoothOperator */,
+				DE963BA92679873C00372B88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE963BA92679873C00372B88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE963BA82679873C00372B88 /* SmoothOperator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE963BAA2679873C00372B88 /* SmoothOperator */ = {
+			isa = PBXGroup;
+			children = (
+				DE963BAD2679873C00372B88 /* ContentView.swift */,
+				DE5256D726D4B08900E7F7BC /* Sounds.swift */,
+				DE31916D26D19DB900C2467C /* sade.jpg */,
+				DE5256D526D4AA9100E7F7BC /* SmoothOperator.mp3 */,
+				DE5256D926D56A3600E7F7BC /* Sade - Smooth Operator.mp4 */,
+				DE963BAB2679873C00372B88 /* AppDelegate.swift */,
+				DE963BAF2679873C00372B88 /* Experience.rcproject */,
+				DE963BB12679873F00372B88 /* Assets.xcassets */,
+				DE963BB62679873F00372B88 /* Info.plist */,
+				DE963BB32679873F00372B88 /* Preview Content */,
+			);
+			path = SmoothOperator;
+			sourceTree = "<group>";
+		};
+		DE963BB32679873F00372B88 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DE963BB42679873F00372B88 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE963BA72679873C00372B88 /* SmoothOperator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE963BB92679873F00372B88 /* Build configuration list for PBXNativeTarget "SmoothOperator" */;
+			buildPhases = (
+				DE963BA42679873C00372B88 /* Sources */,
+				DE963BA52679873C00372B88 /* Frameworks */,
+				DE963BA62679873C00372B88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmoothOperator;
+			productName = SmoothOperator;
+			productReference = DE963BA82679873C00372B88 /* SmoothOperator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE963BA02679873C00372B88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					DE963BA72679873C00372B88 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = DE963BA32679873C00372B88 /* Build configuration list for PBXProject "SmoothOperator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE963B9F2679873C00372B88;
+			productRefGroup = DE963BA92679873C00372B88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE963BA72679873C00372B88 /* SmoothOperator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE963BA62679873C00372B88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE963BB52679873F00372B88 /* Preview Assets.xcassets in Resources */,
+				DE31916E26D19DB900C2467C /* sade.jpg in Resources */,
+				DE5256DA26D56A3600E7F7BC /* Sade - Smooth Operator.mp4 in Resources */,
+				DE5256D626D4AA9100E7F7BC /* SmoothOperator.mp3 in Resources */,
+				DE963BB22679873F00372B88 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE963BA42679873C00372B88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE963BAE2679873C00372B88 /* ContentView.swift in Sources */,
+				DE963BAC2679873C00372B88 /* AppDelegate.swift in Sources */,
+				DE963BB02679873C00372B88 /* Experience.rcproject in Sources */,
+				DE5256D826D4B08900E7F7BC /* Sounds.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DE963BB72679873F00372B88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE963BB82679873F00372B88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE963BBA2679873F00372B88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SmoothOperator/Preview Content\"";
+				DEVELOPMENT_TEAM = VK9MK2FVLX;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SmoothOperator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Innovoeb.SmoothOperator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE963BBB2679873F00372B88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SmoothOperator/Preview Content\"";
+				DEVELOPMENT_TEAM = VK9MK2FVLX;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SmoothOperator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Innovoeb.SmoothOperator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE963BA32679873C00372B88 /* Build configuration list for PBXProject "SmoothOperator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE963BB72679873F00372B88 /* Debug */,
+				DE963BB82679873F00372B88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE963BB92679873F00372B88 /* Build configuration list for PBXNativeTarget "SmoothOperator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE963BBA2679873F00372B88 /* Debug */,
+				DE963BBB2679873F00372B88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE963BA02679873C00372B88 /* Project object */;
+}

@@ -24,8 +24,8 @@ Com
 .VolumeIcon.icns
 .com.apple.timemachine.donotpresent
 
-.AppDelegate.swift
-.foobar.swift
+.AppDelegate
+.foobar
 
 # Directories potentially created on remote AFP share
 .AppleDB

@@ -9,6 +9,7 @@ import AVFoundation
 
  class Sounds
  {
+    // static keyword = create a typed method; get a method without creating an instance of the class
    static var audioPlayer:AVAudioPlayer?
 
    static func playSounds(soundfile: String)

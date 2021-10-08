@@ -8,27 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		DE2177D126E1E948000E3449 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2177D026E1E948000E3449 /* AppDelegate.swift */; };
-		DE2177D726E1F59E000E3449 /* foobar3.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2177D626E1F59E000E3449 /* foobar3.swift */; };
 		DE31916E26D19DB900C2467C /* sade.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE31916D26D19DB900C2467C /* sade.jpg */; };
-		DE5256D626D4AA9100E7F7BC /* SmoothOperator.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DE5256D526D4AA9100E7F7BC /* SmoothOperator.mp3 */; };
 		DE5256D826D4B08900E7F7BC /* Sounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5256D726D4B08900E7F7BC /* Sounds.swift */; };
-		DE5256DA26D56A3600E7F7BC /* Sade - Smooth Operator.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = DE5256D926D56A3600E7F7BC /* Sade - Smooth Operator.mp4 */; };
+		DE6FF23E270A9BD500701F2E /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6FF23D270A9BD500701F2E /* ARViewContainer.swift */; };
+		DE6FF240270A9C5200701F2E /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6FF23F270A9C5200701F2E /* Coordinator.swift */; };
+		DE6FF245270AA98900701F2E /* Sade - Smooth Operator.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = DE6FF244270AA98900701F2E /* Sade - Smooth Operator.mp4 */; };
 		DE963BAE2679873C00372B88 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE963BAD2679873C00372B88 /* ContentView.swift */; };
-		DE963BB02679873C00372B88 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = DE963BAF2679873C00372B88 /* Experience.rcproject */; };
 		DE963BB22679873F00372B88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE963BB12679873F00372B88 /* Assets.xcassets */; };
 		DE963BB52679873F00372B88 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE963BB42679873F00372B88 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DE2177D026E1E948000E3449 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DE2177D626E1F59E000E3449 /* foobar3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foobar3.swift; sourceTree = "<group>"; };
 		DE31916D26D19DB900C2467C /* sade.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sade.jpg; sourceTree = "<group>"; };
-		DE5256D526D4AA9100E7F7BC /* SmoothOperator.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = SmoothOperator.mp3; path = ../../../SmoothOperator.mp3; sourceTree = "<group>"; };
 		DE5256D726D4B08900E7F7BC /* Sounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sounds.swift; sourceTree = "<group>"; };
-		DE5256D926D56A3600E7F7BC /* Sade - Smooth Operator.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Sade - Smooth Operator.mp4"; path = "../../../Sade - Smooth Operator.mp4"; sourceTree = "<group>"; };
+		DE6FF23D270A9BD500701F2E /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
+		DE6FF23F270A9C5200701F2E /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		DE6FF242270A9DAD00701F2E /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		DE6FF244270AA98900701F2E /* Sade - Smooth Operator.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sade - Smooth Operator.mp4"; sourceTree = "<group>"; };
 		DE963BA82679873C00372B88 /* SmoothOperator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmoothOperator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE963BAD2679873C00372B88 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		DE963BAF2679873C00372B88 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		DE963BB12679873F00372B88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE963BB42679873F00372B88 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DE963BB62679873F00372B88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,11 +44,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DE6FF241270A9DAD00701F2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE6FF242270A9DAD00701F2E /* AVKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DE963B9F2679873C00372B88 = {
 			isa = PBXGroup;
 			children = (
 				DE963BAA2679873C00372B88 /* SmoothOperator */,
 				DE963BA92679873C00372B88 /* Products */,
+				DE6FF241270A9DAD00701F2E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,17 +72,16 @@
 		DE963BAA2679873C00372B88 /* SmoothOperator */ = {
 			isa = PBXGroup;
 			children = (
-				DE963BAD2679873C00372B88 /* ContentView.swift */,
-				DE5256D726D4B08900E7F7BC /* Sounds.swift */,
 				DE2177D026E1E948000E3449 /* AppDelegate.swift */,
+				DE963BAD2679873C00372B88 /* ContentView.swift */,
+				DE6FF23D270A9BD500701F2E /* ARViewContainer.swift */,
+				DE6FF23F270A9C5200701F2E /* Coordinator.swift */,
+				DE5256D726D4B08900E7F7BC /* Sounds.swift */,
 				DE31916D26D19DB900C2467C /* sade.jpg */,
-				DE5256D526D4AA9100E7F7BC /* SmoothOperator.mp3 */,
-				DE5256D926D56A3600E7F7BC /* Sade - Smooth Operator.mp4 */,
-				DE963BAF2679873C00372B88 /* Experience.rcproject */,
+				DE6FF244270AA98900701F2E /* Sade - Smooth Operator.mp4 */,
 				DE963BB12679873F00372B88 /* Assets.xcassets */,
 				DE963BB62679873F00372B88 /* Info.plist */,
 				DE963BB32679873F00372B88 /* Preview Content */,
-				DE2177D626E1F59E000E3449 /* foobar3.swift */,
 			);
 			path = SmoothOperator;
 			sourceTree = "<group>";
@@ -145,9 +152,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE963BB52679873F00372B88 /* Preview Assets.xcassets in Resources */,
+				DE6FF245270AA98900701F2E /* Sade - Smooth Operator.mp4 in Resources */,
 				DE31916E26D19DB900C2467C /* sade.jpg in Resources */,
-				DE5256DA26D56A3600E7F7BC /* Sade - Smooth Operator.mp4 in Resources */,
-				DE5256D626D4AA9100E7F7BC /* SmoothOperator.mp3 in Resources */,
 				DE963BB22679873F00372B88 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -160,10 +166,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE2177D126E1E948000E3449 /* AppDelegate.swift in Sources */,
-				DE2177D726E1F59E000E3449 /* foobar3.swift in Sources */,
 				DE963BAE2679873C00372B88 /* ContentView.swift in Sources */,
-				DE963BB02679873C00372B88 /* Experience.rcproject in Sources */,
 				DE5256D826D4B08900E7F7BC /* Sounds.swift in Sources */,
+				DE6FF23E270A9BD500701F2E /* ARViewContainer.swift in Sources */,
+				DE6FF240270A9C5200701F2E /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,7 +227,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -276,7 +282,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -296,6 +302,7 @@
 				DEVELOPMENT_TEAM = VK9MK2FVLX;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SmoothOperator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,6 +324,7 @@
 				DEVELOPMENT_TEAM = VK9MK2FVLX;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SmoothOperator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -25,6 +25,11 @@ Icon
 
 
 foobar.swift
+SmoothOperator.xcodeproj
+Assets.xcassets/
+Info.plist
+Preview Content/
+
 
 # Directories potentially created on remote AFP share
 .AppleDB

@@ -77,8 +77,7 @@
 				DE6FF23D270A9BD500701F2E /* ARViewContainer.swift */,
 				DE6FF23F270A9C5200701F2E /* Coordinator.swift */,
 				DE5256D726D4B08900E7F7BC /* Sounds.swift */,
-				DE31916D26D19DB900C2467C /* sade.jpg */,
-				DE6FF244270AA98900701F2E /* Sade - Smooth Operator.mp4 */,
+				DEA248DB27110C290070FAA7 /* Assets */,
 				DE963BB12679873F00372B88 /* Assets.xcassets */,
 				DE963BB62679873F00372B88 /* Info.plist */,
 				DE963BB32679873F00372B88 /* Preview Content */,
@@ -92,6 +91,15 @@
 				DE963BB42679873F00372B88 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DEA248DB27110C290070FAA7 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				DE31916D26D19DB900C2467C /* sade.jpg */,
+				DE6FF244270AA98900701F2E /* Sade - Smooth Operator.mp4 */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

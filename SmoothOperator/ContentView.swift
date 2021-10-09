@@ -14,7 +14,7 @@ struct ContentView : View
     
     var body: some View
     {
-        return ARViewContainer().edgesIgnoringSafeArea(.all).statusBar(hidden: true)
+        return ARViewContainer().edgesIgnoringSafeArea(.all)
     }
 }
 
